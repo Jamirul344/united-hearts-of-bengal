@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Volunteer — United Hearts of Bengal</title>
+    <meta
+      name="description"
+      content="Join United Hearts of Bengal as a volunteer. Contribute your time, skills, and compassion to create meaningful change in communities across Bengal." />
+    <meta name="robots" content="index, follow" />
+
+    <link rel="canonical" href="https://yourdomain.com/volunteer" />
+
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta
+      http-equiv="Referrer-Policy"
+      content="strict-origin-when-cross-origin" />
+
+    <!-- OPEN GRAPH (Facebook / WhatsApp / LinkedIn) -->
+    <meta property="og:site_name" content="United Hearts of Bengal" />
+    <meta property="og:title" content="Volunteer — United Hearts of Bengal" />
+    <meta
+      property="og:description"
+      content="Become a volunteer and help create lasting impact through education, healthcare, and community development." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yourdomain.com/volunteer" />
+    <meta
+      property="og:image"
+      content="https://yourdomain.com/assets/images/og-volunteer.jpg" />
+
+    <!-- LOAD FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=BBH+Hegarty&family=Cormorant+Garamond:wght@300..700&family=Dancing+Script:wght@400..700&family=Sora:wght@400;600;700&display=swap"
+      rel="stylesheet" />
+
+    <!-- LOAD CSS -->
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="stylesheet" href="assets/css/components.css" />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+
+    <link rel="stylesheet" href="assets/css/pages/volunteer.css" />
+
+    <!-- LOAD ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <!-- LOAD COMPONENTS -->
+    <script type="module" src="assets/js/components/index.js"></script>
+  </head>
+
+  <body>
+    <!-- ================= HEADER ================= -->
+    <header class="nav-header">
+      <site-header></site-header>
+    </header>
+
+    <main id="main-content">
+      <!-- ================= HERO ================= -->
+      <section class="heading-container reveal" aria-labelledby="page-title">
+        <div class="hero-header">
+          <h1 id="page-title" class="page-title">
+            Ready to Make a <span>Difference</span>?
+          </h1>
+
+          <p>
+            Money is not the foremost entity to give away. Deliver your time,
+            your expertise and your love. Join us and be a #VOLUNTEER. Every
+            individual has the ability to make a unique difference.
+          </p>
+          <a href="#volunteerForm">
+            <img
+              src="assets/images/icon/hand-shake.svg"
+              alt=""
+              role="presentation"
+              aria-hidden="true"
+              loading="lazy" />
+          </a>
+        </div>
+      </section>
+
+      <!-- ================= WHY VOLUNTEER ================= -->
+      <section class="volunteer-section reveal">
+        <div class="content">
+          <h2>
+            Why Join <span>United Hearts of Bengal's</span> Volunteer Squad?
+          </h2>
+          <p class="subtitle">Here's why you should join us:</p>
+
+          <div class="features">
+            <div class="feature">
+              <img
+                src="assets/images/icon/difference.png"
+                alt=""
+                class="icon"
+                role="presentation" />
+              <p>
+                To make a difference in the lives of those who need it the most
+              </p>
+            </div>
+
+            <div class="feature">
+              <img
+                src="assets/images/icon/opportunity.png"
+                alt="volunteering opportunities"
+                class="icon"
+                role="presentation" />
+              <p>
+                We offer a range of volunteering opportunities that fit your
+                interests
+              </p>
+            </div>
+
+            <div class="feature">
+              <img
+                src="assets/images/icon/community.png"
+                alt="community committed"
+                class="icon"
+                role="presentation" />
+              <p>
+                You'll be part of a community committed to making a positive
+                change
+              </p>
+            </div>
+
+            <div class="feature">
+              <img
+                src="assets/images/icon/better-tommorow.png"
+                alt="better tomorrow"
+                class="icon"
+                role="presentation" />
+              <p>
+                You, who want to break the mold and create a better tomorrow
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="image-box">
+          <img
+            src="assets/images/Team spirit-pana.png"
+            alt="Volunteers working together as a team"
+            loading="lazy" />
+        </div>
+      </section>
+
+      <!-- ================= JOIN TEAM ================= -->
+      <section class="volunteer-form-section reveal">
+        <div class="volunteer-container">
+          <h2>Volunteer With Us</h2>
+          <p>Join our mission and make a real impact in your community.</p>
+
+          <form class="volunteer-form" id="volunteerForm" novalidate>
+            <div class="form-group">
+              <label for="name">Full Name <span>*</span></label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Enter your full name"
+                autocomplete="name"
+                required
+                data-error-required="Please enter your full name" />
+              <small class="error-msg"></small>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="gender">Gender<span>*</span></label>
+                <select
+                  name="gender"
+                  id="gender"
+                  required
+                  data-error-required="Please select your gender">
+                  <option value="">Select Your Gender</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="transgender">Transgender</option>
+                </select>
+                <small class="error-msg"></small>
+              </div>
+
+              <div class="form-group">
+                <label for="age">Age<span>*</span></label>
+                <input
+                  type="number"
+                  name="age"
+                  id="age"
+                  min="16"
+                  autocomplete="bday-year"
+                  placeholder="16+"
+                  required
+                  data-error-required="Please enter your age" />
+                <small class="error-msg"></small>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="you@example.com"
+                  autocomplete="email" />
+                <small class="error-msg"></small>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone<span>*</span></label>
+                <input
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  placeholder="+91 XXXXX XXXXX"
+                  pattern="(\+91[\s-]?)?[6-9][0-9]{9}"
+                  maxlength="13"
+                  inputmode="numeric"
+                  autocomplete="tel"
+                  required
+                  data-error-required="Phone number is required"
+                  data-error-pattern="Please enter a valid 10-digit phone number" />
+                <small class="error-msg"></small>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="city">City<span>*</span></label>
+                <input
+                  type="text"
+                  name="city"
+                  id="city"
+                  autocomplete="address-level2"
+                  placeholder="Your city"
+                  required
+                  data-error-required="Please enter your city" />
+                <small class="error-msg"></small>
+              </div>
+
+              <div class="form-group">
+                <label for="interest">Area of Interest<span>*</span></label>
+                <select
+                  name="interest"
+                  id="interest"
+                  required
+                  data-error-required="Please select an area of interest">
+                  <option value="">Select an option</option>
+                  <option value="education">Education</option>
+                  <option value="healthcare">Healthcare</option>
+                  <option value="blood-donation">Blood Donation</option>
+                  <option value="fundraising">Fundraising</option>
+                  <option value="community-development">
+                    Community Outreach
+                  </option>
+                </select>
+                <small class="error-msg"></small>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="availability">Availability<span>*</span></label>
+              <select
+                name="availability"
+                id="availability"
+                required
+                data-error-required="Please tell us when you will be available">
+                <option value="">When can you volunteer?</option>
+                <option value="daily">Daily</option>
+                <option value="weekends">Weekends</option>
+                <option value="flexible">Flexible</option>
+              </select>
+              <small class="error-msg"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Why do you want to volunteer?</label>
+              <textarea
+                name="message"
+                id="message"
+                rows="4"
+                placeholder="Tell us a bit about your motivation"></textarea>
+            </div>
+
+            <div class="form-checkbox">
+              <input
+                type="checkbox"
+                name="consent"
+                id="consent"
+                required
+                data-error-required="You must agree before submitting" />
+              <label for="consent"
+                >I agree to be contacted regarding volunteer
+                opportunities.</label
+              >
+            </div>
+            <small class="error-msg checkbox-error"></small>
+
+            <button type="submit" class="submit">Register as Volunteer</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="impact-section reveal">
+        <impact-section></impact-section>
+      </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <site-footer></site-footer>
+
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/form-validation.js" defer></script>
+    <script src="assets/js/animation.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,218 @@
+/* =============================== PROGRAMME HERO ================= */
+.programme-page {
+  background: url(/assets/images/bg-img-min.jpg) center / cover;
+}
+.programme-hero-inner {
+  margin-bottom: 44px;
+  text-align: center;
+}
+
+.programme-hero h1 {
+  font-size: clamp(30px, 5vw, 52px);
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  color: var(--dark);
+}
+
+.programme-hero p {
+  font-size: clamp(16px, 1.125vw, 18px);
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+.programme-section {
+  padding: clamp(10px, 6vw, 45px);
+  margin-bottom: clamp(20px, 6vw, 65px);
+  border-radius: 12px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+.programme-section {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+@media (hover: hover) {
+  .programme-section:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08);
+  }
+}
+
+.programme-section:nth-child(even) {
+  grid-template-columns: 1fr 2fr;
+}
+
+.programme-section:nth-child(even) .programme-image {
+  order: -1;
+}
+
+.programme-header h2 {
+  background: #e0b65f;
+  color: var(--dark);
+  max-width: 500px;
+  padding: 6px 14px;
+  font-size: clamp(20px, 5vw, 25px);
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.programme-intro {
+  font-size: 16px;
+  margin: 20px 0 30px;
+  color: var(--text-muted);
+}
+
+.info-block {
+  display: flex;
+  gap: 15px;
+  margin-bottom: clamp(10px, 3vw, 30px);
+}
+
+.info-icon {
+  font-size: 22px;
+}
+
+.info-content strong {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.info-content p {
+  margin: 0;
+  font-size: 14px;
+  color: var(--text-muted);
+}
+
+.sub-goals {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.sub-goal {
+  padding: clamp(0px, 2.5vw, 20px);
+}
+.sub-goal h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+@media (min-width: 901px) {
+  .sub-goal:not(:last-child) {
+    border-right: 2px dashed rgba(0, 0, 0, 0.25);
+  }
+}
+
+.indicators {
+  margin-top: 12px;
+  padding-left: 18px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.indicators li {
+  margin-bottom: 6px;
+  list-style: disc;
+}
+.programme-image img {
+  max-width: 100%;
+  height: auto;
+}
+/* ================= RESPONSIVE ================= */
+@media (max-width: 900px) {
+  .programme-section {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+
+  .programme-section:nth-child(even) {
+    grid-template-columns: 1fr;
+  }
+
+  .programme-section:nth-child(even) .programme-image {
+    order: 0;
+  }
+
+  .sub-goals {
+    grid-template-columns: 1fr;
+  }
+
+  .programme-image img {
+    height: 260px;
+  }
+}
+
+/* =======================================
+             GET INVOLVE SECTION
+=========================================== */
+
+.get-involved {
+  position: relative;
+  background-image: url("/assets/images/programme/larm-rmah-AEaTUnvneik-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--light);
+}
+
+.cta-overlay {
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(5px);
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.get-involved .cta-content {
+  text-align: center;
+  position: relative;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.get-involved h3 {
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+.get-involved p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 35px;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: var(--light);
+  padding: 14px 32px;
+}
+
+.btn-secondary {
+  border: 1px solid var(--light);
+  color: var(--light);
+  padding: 14px 32px;
+}
+
+@media (max-width: 768px) {
+  .get-involved {
+    padding: 90px 20px;
+  }
+
+  .get-involved h3 {
+    font-size: 34px;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+  }
+}

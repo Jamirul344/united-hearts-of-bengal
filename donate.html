@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Donate — United Hearts of Bengal</title>
+    <meta
+      name="description"
+      content="Donate to United Hearts of Bengal and support education, healthcare, nutrition, women empowerment, and community development. Your contribution creates lasting impact." />
+    <meta name="robots" content="index, follow" />
+
+    <link rel="canonical" href="https://yourdomain.com/donate" />
+
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta
+      http-equiv="Referrer-Policy"
+      content="strict-origin-when-cross-origin" />
+
+    <!-- OPEN GRAPH (Facebook / WhatsApp / LinkedIn) -->
+    <meta property="og:site_name" content="United Hearts of Bengal" />
+    <meta property="og:title" content="Donate — United Hearts of Bengal" />
+    <meta
+      property="og:description"
+      content="Support education, healthcare, nutrition, and community development. Donate now to create lasting change." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yourdomain.com/donate" />
+    <meta
+      property="og:image"
+      content="https://yourdomain.com/assets/images/og-donate.jpg" />
+
+    <!-- LOADS FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=BBH+Hegarty&family=Cormorant+Garamond:wght@300..700&family=Dancing+Script:wght@400..700&family=Sora:wght@400;600;700&display=swap"
+      rel="stylesheet" />
+    <!-- LOADS CSS -->
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="stylesheet" href="assets/css/components.css" />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+
+    <link rel="stylesheet" href="assets/css/pages/donate.css" />
+    <!-- LOADS ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <!-- LOADS COMPONENTS -->
+    <script type="module" src="assets/js/components/index.js"></script>
+  </head>
+
+  <body>
+    <!-- Header -->
+   <header class="nav-header">
+      <site-header></site-header>
+    </header>
+
+    <main>
+      <!--======= HERO HEADING ==========-->
+      <section class="heading-container reveal" aria-labelledby="page-title">
+        <div class="hero-header">
+          <h1 class="page-title">Be the<span>change</span> you want to see</h1>
+
+          <p>
+            As we light a torch for someone, we naturally enlighten our own
+            path. Every act of your kindness, irrespective of size, is entirely
+            and effectively utilized for the cause. Donate to lead a joyous
+            change in Education, Nutrition and Community Development!
+          </p>
+          <a href="#donationForm">
+            <img
+              src="assets/images/icon/sketch-3.svg"
+              role="presentation"
+              aria-hidden="true"
+              loading="lazy"
+          /></a>
+        </div>
+      </section>
+
+      <!--========= DONATION FORM SECTION ========-->
+      <section class="donate-layout reveal">
+        <div class="donate-content">
+          <span class="badge">80G Tax Exempt</span>
+
+          <h2>
+            Your kindness<br />
+            <span>changes lives.</span>
+          </h2>
+
+          <p class="lead">
+            Support education, healthcare, and sustainable development for
+            undeserved communities across Bengal.
+          </p>
+
+          <div class="donate-img">
+            <img
+              src="assets/images/Charity-cuate.png"
+              alt="Illustration of charity support"
+              role="presentation" />
+          </div>
+        </div>
+
+        <div class="donate-card">
+          <form id="donationForm" novalidate aria-describedby="formHelp">
+            <h2>Donate now</h2>
+
+            <fieldset>
+              <legend>Select An Amount</legend>
+              <div class="amounts" role="group" aria-label="Donation amount">
+                <button type="button" data-amount="500">₹500</button>
+                <button type="button" data-amount="1000">₹1000</button>
+                <button type="button" data-amount="2500">₹2500</button>
+                <button type="button" data-amount="5000">₹5000</button>
+              </div>
+            </fieldset>
+
+            <div class="form-group" aria-live="polite">
+              <input
+                type="text"
+                inputmode="numeric"
+                pattern="[0-9]*"
+                name="amount"
+                id="customAmount"
+                placeholder="Custom amount (₹)"
+                data-error-pattern="Please enter valid amount" />
+              <small class="error-msg"></small>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="form-group" aria-live="polite">
+              <input
+                type="text"
+                maxlength="100"
+                name="name"
+                id="name"
+                placeholder="Full name"
+                autocomplete="name"
+                required
+                data-error-required="Please enter your name" />
+              <small class="error-msg"></small>
+            </div>
+
+            <div class="form-group" aria-live="polite">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email address"
+                autocomplete="email"
+                required
+                data-error-required="Please enter your email"
+                data-error-invalid="Please enter a valid email address" />
+              <small class="error-msg"></small>
+            </div>
+
+            <button type="submit" class="submit" id="donateBtn">
+              Proceed to payment
+            </button>
+
+            <p class="secure">
+              🔒 Secure payments • Instant receipt • Tax benefit
+            </p>
+          </form>
+        </div>
+      </section>
+
+      <!-- ======WHERE DONATION GOES =========-->
+      <section class="donate-impact reveal">
+        <h2>“The Impact of Your Donation”</h2>
+        <p class="subtitle">Every penny makes a difference</p>
+
+        <div class="impact-grid" loading="lazy">
+          <div class="card education">
+            <div class="overlay"></div>
+
+            <div class="card-content">
+              <div class="icon">
+                <img
+                  src="assets/images/donation-impact-img/graduation.png"
+                  alt="Education Icon"
+                  role="presentation" />
+              </div>
+              <h3>Education</h3>
+              <p>Provide school supplies, books, and educational resources.</p>
+              <span>₹500 can educate a child for one month</span>
+            </div>
+          </div>
+
+          <div class="card healthcare">
+            <div class="overlay"></div>
+
+            <div class="card-content">
+              <div class="icon">
+                <img
+                  src="assets/images/donation-impact-img/doctor.png"
+                  alt="Healthcare Icon"
+                  role="presentation" />
+              </div>
+              <h3>Healthcare</h3>
+              <p>Support medical camps and healthcare services.</p>
+              <span>₹1000 can provide medical care for a family</span>
+            </div>
+          </div>
+
+          <div class="card food">
+            <div class="overlay"></div>
+
+            <div class="card-content">
+              <div class="icon">
+                <img
+                  src="assets/images/donation-impact-img/nutritionist.png"
+                  alt="Food Icon"
+                  role="presentation" />
+              </div>
+              <h3>Food</h3>
+              <p>Ensure meals for underprivileged children and families.</p>
+              <span>₹750 can provide meals for a week</span>
+            </div>
+          </div>
+
+          <div class="card woman-empower">
+            <div class="overlay"></div>
+
+            <div class="card-content">
+              <div class="icon">
+                <img
+                  src="assets/images/donation-impact-img/woman.png"
+                  alt="Women Icon"
+                  role="presentation" />
+              </div>
+              <h3>Women Empowerment</h3>
+              <p>Support skill training and livelihood programs for women.</p>
+              <span>₹2000 can train a woman for employment</span>
+            </div>
+          </div>
+
+          <div class="card emergency">
+            <div class="overlay"></div>
+
+            <div class="card-content">
+              <div class="icon">
+                <img
+                  src="assets/images/donation-impact-img/ambulance.png"
+                  alt="Emergency Icon"
+                  role="presentation" />
+              </div>
+              <h3>Emergency</h3>
+              <p>Provide rapid assistance during disasters and emergencies.</p>
+              <span>₹3000 can support emergency relief kits</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--========= IMPACT SECTION =============-->
+      <section class="impact-section reveal">
+        <impact-section></impact-section>
+      </section>
+
+      <!--==== OFFLINE DONATION METHODS====  -->
+      <section class="offline-donation reveal accordion-layout">
+        <h2>Offline Donation Methods</h2>
+        <p class="subtitle">
+          Prefer donating offline? You can support us using the methods below.
+        </p>
+
+        <div class="accordion">
+          <details open>
+            <summary>
+              <span>🏦 Bank Transfer</span>
+            </summary>
+
+            <div class="content">
+              <p><strong>Account Name:</strong> United Hearts of Bengal</p>
+              <p><strong>Bank Name:</strong> State Bank of India</p>
+              <p>
+                <strong>Account Number:</strong>
+                <span id="acc">123456789012</span>
+              </p>
+              <p>
+                <strong>IFSC Code:</strong> <span id="ifsc">SBIN0001234</span>
+              </p>
+            </div>
+          </details>
+          <details>
+            <summary>✉️ Cheque</summary>
+            <div class="content">
+              <p>Payable to <strong>United Hearts of Bengal</strong></p>
+              <p>
+                📍 123 Community Street,<br />
+                Kolkata – 700001
+              </p>
+            </div>
+          </details>
+          <details>
+            <summary>🤝 In-Person Donation</summary>
+            <div class="content">
+              <p>
+                <strong>Office Hours</strong><br />
+                Mon–Fri: 9AM – 6PM<br />
+                Sat: 10AM – 4PM
+              </p>
+            </div>
+          </details>
+
+          <div class="note">
+            <p>
+              📧 After donating offline, email your transaction details to
+              <a href="mailto:info@unitedheartsofbengal.org">
+                info@unitedheartsofbengal.org
+              </a>
+              to receive your receipt and tax benefit certificate.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--====== QUOTATION SECTION =====-->
+      <section class="quote-blur-section reveal">
+        <div class="quote-wrapper">
+          <blockquote>
+            The best way to find yourself is to lose yourself in the service of
+            others.
+          </blockquote>
+
+          <cite class="quote-author"> — Swami Vivekananda </cite>
+        </div>
+      </section>
+    </main>
+
+    <!--footer start-->
+    <footer class="reveal">
+      <site-footer></site-footer>
+    </footer>
+    <!--footer end-->
+
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/animation.js" defer></script>
+    <script src="assets/js/form-validation.js" defer></script>
+    <script src="assets/js/donate-form.js" defer></script>
+    <!-- <script src="assets/js/donate.js"></script> -->
+  </body>
+</html>

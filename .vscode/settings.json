@@ -1,0 +1,9 @@
+{
+  "path-intellisense.autoSlashAfterDirectory": true,
+  "path-intellisense.autoTriggerNextSuggestion": true,
+  "liveServer.settings.multiRootWorkspaceName": "UHB",
+  "cSpell.words": ["IFSC", "Jamirul", "Kolkata"],
+  "cSpell.enabledFileTypes": {
+    "html": true
+  }
+}

@@ -1,0 +1,451 @@
+/* ==============================================================
+====================DONATION FORM LAYOUT ======================*/
+.donate-layout {
+  min-height: 100dvh;
+  min-height: 100dvh;
+  display: grid;
+  grid-template-columns: 1fr minmax(320px, 420px);
+  gap: 80px;
+  padding-bottom: env(safe-area-inset-bottom);
+  align-items: center;
+}
+
+/* Left side content*/
+.badge {
+  padding: 6px 14px;
+  background: #eef2ff;
+  color: #4f46e5;
+  border-radius: 999px;
+  font-size: 13px;
+}
+
+.donate-content h2 {
+  font-size: clamp(30px, 5vw, 52px);
+  margin: 24px 0;
+}
+
+.donate-content span {
+  color: #4f46e5;
+}
+
+.lead {
+  font-size: 18px;
+  color: #374151;
+}
+
+.donate-img img {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+/*right side content*/
+.donate-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 36px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+.donate-card h2 {
+  font-size: clamp(30px, 5vw, 52px);
+}
+
+.donate-card fieldset {
+  border: none;
+  margin: 1rem 0;
+  padding: 5px;
+}
+
+.amounts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.amounts button {
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  background: #f9f9f9;
+  transition: all 0.2s ease;
+}
+
+.amounts button.active {
+  border-color: #2f855a;
+  background: #e6fffa;
+  font-weight: 600;
+}
+
+.amounts button:hover {
+  border-color: #378261;
+}
+
+.field {
+  margin-bottom: 14px;
+}
+
+.donate-card input {
+  width: 100%;
+  padding: 14px;
+  margin-top: 14px;
+  border-radius: 12px;
+}
+
+.divider {
+  height: 1px;
+  background: #e5e7eb;
+  margin: 24px 0;
+}
+
+.secure {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+/*===============================================
+              IMPACT OF DONATION
+==================================================== */
+.donate-impact {
+  background: rgb(2 158 55 / 22%);
+  text-align: center;
+}
+
+.donate-impact h2 {
+  font-size: clamp(30px, 5vw, 52px);
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+}
+
+.donate-impact .subtitle {
+  color: #6b7280;
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
+
+.impact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 32px;
+  margin: auto;
+}
+
+.impact-grid .card {
+  padding: 12px 8px;
+  position: relative;
+  border-radius: 18px;
+  overflow: hidden;
+  min-height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.18);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.impact-grid .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+}
+
+.card .card-content {
+  position: relative;
+  z-index: 2;
+}
+
+.card-content .icon {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.card-content h3 {
+  font-size: 2.3rem;
+  margin-bottom: 1.6rem;
+  color: #fff;
+}
+
+.card-content p {
+  font-size: 0.95rem;
+  color: #fff;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.card-content span {
+  display: inline-block;
+  font-weight: 600;
+  color: #fff;
+  background: #3ae29345;
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+}
+
+/* BACKGROUND IMAGE */
+.card.education {
+  background: #4f46e5de;
+}
+.card.healthcare {
+  background: rgba(47, 133, 90, 0.35);
+}
+
+.card.food {
+  background: #38a169;
+}
+
+.card.woman-empower {
+  background: rgba(242, 100, 48, 0.35);
+}
+
+.card.emergency {
+  background: rgba(47, 133, 90, 0.25);
+}
+
+.card .overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.85)
+  );
+}
+
+/* ACCESSIBILITY */
+@media (prefers-reduced-motion: reduce) {
+  .impact-grid .card {
+    transition: none;
+  }
+}
+
+/*=============================================
+              OFFLINE DONATION
+=============================================== */
+
+.accordion-layout {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.accordion-layout h2 {
+  font-size: clamp(30px, 5vw, 52px);
+  text-align: center;
+  color: #111827;
+}
+
+.subtitle {
+  text-align: center;
+  margin: 0.6rem auto 2.5rem;
+  color: #6b7280;
+}
+
+.accordion details {
+  background: #ffffff;
+  border-radius: 14px;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.accordion details[open] {
+  border-color: #2563eb;
+  box-shadow: 0 12px 35px rgba(37, 99, 235, 0.25);
+}
+
+.accordion summary {
+  padding: 1.3rem 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  color: #111827;
+  list-style: none;
+}
+
+.accordion summary::-webkit-details-marker {
+  display: none;
+}
+
+.accordion summary::after {
+  content: "+";
+  font-size: 1.4rem;
+  transition: transform 0.25s ease;
+}
+
+details[open] summary::after {
+  content: "–";
+}
+
+.accordion .content {
+  padding: 0 1.5rem;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.45s ease, opacity 0.3s ease;
+}
+
+details[open] .content {
+  padding: 1.5rem;
+  max-height: 500px;
+  opacity: 1;
+}
+
+.content p {
+  margin: 0.4rem 0;
+  font-size: 0.95rem;
+  color: #374151;
+}
+
+.note {
+  margin-top: 3rem;
+  background: #0224b687;
+  padding: 1.6rem;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #fff;
+}
+
+.note a {
+  color: #333;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* =============================================
+                    DONATION QUOTE
+================================================ */
+.quote-blur-section {
+  position: relative;
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.quote-blur-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("https://images.unsplash.com/photo-1509099836639-18ba1795216d");
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px);
+  transform: scale(1.1);
+}
+
+.quote-blur-section::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.quote-wrapper {
+  position: relative;
+  max-width: 820px;
+  padding: 3rem 2.5rem;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(6px);
+  border-radius: 22px;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.25);
+}
+
+.quote-wrapper blockquote {
+  font-size: 2.1rem;
+  line-height: 1.45;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.quote-wrapper blockquote::before {
+  content: "❝";
+  font-size: 6rem;
+  line-height: 0;
+  vertical-align: middle;
+  margin-right: 0.3rem;
+  color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.quote-author {
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .quote-wrapper blockquote {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .donate-layout {
+    grid-template-columns: 1fr;
+    gap: 60px;
+    padding: 60px 6%;
+  }
+
+  .donate-card {
+    max-width: 480px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .donate-layout {
+    padding: 48px 5%;
+  }
+
+  .donate-content h1 {
+    font-size: 36px;
+  }
+
+  .lead {
+    font-size: 16px;
+  }
+
+  .donate-card {
+    padding: 28px;
+    border-radius: 16px;
+  }
+
+  .quote-wrapper blockquote {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .donate-layout {
+    padding: 36px 4%;
+  }
+
+  .badge {
+    font-size: 12px;
+  }
+
+  .donate-content h1 {
+    font-size: 30px;
+  }
+
+  .donate-card {
+    padding: 24px;
+  }
+}

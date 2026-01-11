@@ -1,0 +1,361 @@
+
+/* ===============================
+            CONTACT CARD
+=================================*/
+.contact-wrapper{
+  background: url(/assets/images/18141166_SL-060521-43530-14.jpg) center / cover no-repeat;
+}
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.contact-card {
+  background: var(--light);
+  padding: 20px;
+  border-radius: 18px;
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-icon {
+  min-width: 90px;
+  height: 90px;
+  background: rgba(242, 100, 48, 0.15);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-icon img {
+  width: 75px;
+  height: 75px;
+  pointer-events: none;
+}
+
+.contact-card h4 {
+  margin-bottom: 8px;
+  font-size: 18px;
+  color: var(--dark);
+}
+
+.contact-card p,
+.contact-card a {
+  margin: 2px 0;
+  font-size: 15px;
+  color: var(--text-muted);
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+@media (hover: hover) {
+  .contact-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+  }
+}
+
+/*=================================
+           CONTACT FORM
+================================== */
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 50px;
+  align-items: center;
+  margin-top: 70px;
+}
+.contact-grid .social-icons a{
+  background-color: var(--dark);
+  margin-top: 10px;
+}
+
+.contact-text h2 {
+  font-size: clamp(32px, 4vw, 42px);
+  margin: 10px 0;
+  color: var(--dark);
+}
+
+.contact-text p {
+  color: #666;
+  max-width: 480px;
+  line-height: 1.7;
+}
+
+.form-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.form-card textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.contact-img{
+  max-width: 480px;
+}
+
+
+@media (max-width: 992px) {
+  .contact-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .form-card,
+  .contact-wrapper {
+    padding: 10px;
+  }
+  .contact-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-text,
+  .form-card {
+    width: 100%;
+  }
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .contact-card {
+    width: 100%;
+    overflow: hidden;
+    padding: 18px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .contact-info h4 {
+    font-size: 16px;
+  }
+
+  .contact-info p {
+    font-size: 13px;
+    word-break: normal;
+    overflow-wrap: anywhere;
+    white-space: normal;
+  }
+}
+
+/* ===========================
+          MAPS SECTION
+=================================*/
+.visit-section {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 40px;
+  padding: clamp(40px, 6vw, 60px) 8%;
+  background: #FFFAF0;
+  align-items: center;
+}
+
+.visit-text h2 {
+  font-size: clamp(26px, 4vw, 34px);
+  color: var(--dark);
+  margin-bottom: 15px;
+}
+
+.visit-text p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text-muted);
+  max-width: 520px;
+  margin-bottom: 25px;
+}
+
+.direction-map {
+  background: var(--light);
+  padding: 12px;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.direction-map iframe {
+  width: 100%;
+  height: 320px;
+  border: none;
+  border-radius: 14px;
+}
+
+@media (max-width: 992px) {
+  .visit-section {
+    grid-template-columns: 1fr;
+    padding: 60px 6%;
+  }
+
+  .visit-text {
+    text-align: center;
+  }
+
+  .visit-text p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .visit-section {
+    padding: 50px 5%;
+    gap: 30px;
+  }
+
+  .visit-text h2 {
+    font-size: 26px;
+  }
+
+  .direction-map iframe {
+    height: 240px;
+  }
+
+  .link-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/*=============================================
+                FAQ SECTION
+================================================== */
+.faq-section {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 50px;
+  padding: clamp(40px, 6vw, 60px) 8%;
+  background: var(--bg);
+  align-items: flex-start;
+}
+
+.faq-left h2 {
+  font-size: clamp(26px, 4vw, 36px);
+  color: var(--dark);
+  margin-bottom: 30px;
+}
+
+.faq-left details {
+  background: var(--light);
+  border-radius: 16px;
+  padding: 18px 22px;
+  margin-bottom: 15px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.faq-left summary {
+  font-size: 17px;
+  font-weight: 600;
+  color: #333;
+  list-style: none;
+  position: relative;
+  padding-right: 30px;
+  transition: color 0.3s ease;
+}
+
+.faq-left summary::after {
+  content: "+";
+  position: absolute;
+  right: 0;
+  font-size: 22px;
+  color: var(--accent);
+  transition: transform 0.3s ease;
+}
+
+.faq-left details[open] summary {
+  color: var(--accent);
+}
+
+.faq-left summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-left details p {
+  margin-top: 12px;
+  font-size: 15px;
+  color: var(--text-muted);
+  line-height: 1.6;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease, opacity 0.25s ease;
+  opacity: 0;
+}
+.faq-left details[open] p {
+  max-height: 1000px;
+  opacity: 1;
+}
+
+.faq-left details[open] {
+  background: #fff7ee;
+}
+
+.faq-left details[open] summary::after {
+  content: "−";
+}
+
+.faq-right {
+  background: var(--light);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.faq-right h3 {
+  font-size: 24px;
+  color: var(--dark);
+  margin-bottom: 20px;
+}
+
+.question-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+@media (max-width: 992px) {
+  .faq-section {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 70px 6%;
+  }
+
+  .faq-left h2 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .faq-section {
+    padding: 60px 5%;
+  }
+
+  .faq-left h2 {
+    font-size: 26px;
+  }
+
+  .faq-right h3 {
+    font-size: 20px;
+  }
+
+  .faq-left summary {
+    font-size: 16px;
+  }
+}
