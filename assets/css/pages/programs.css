@@ -7,7 +7,7 @@
   text-align: center;
 }
 
-.programs-hero h1 {
+.programs-hero-inner h1 {
   font-size: clamp(30px, 5vw, 52px);
   font-weight: 700;
   line-height: 1.1;
@@ -15,7 +15,7 @@
   color: var(--dark);
 }
 
-.programs-hero p {
+.programs-hero-inner p {
   font-size: clamp(16px, 1.125vw, 18px);
   line-height: 1.6;
   color: var(--text-muted);
