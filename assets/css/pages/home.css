@@ -57,6 +57,7 @@
   font-weight: 700;
   font-style: normal;
 }
+
 .hero-text-wrapper .subtitle {
   font-family: var(--font-heading);
   font-size: 22px;
@@ -133,6 +134,7 @@
 .hero-dots button:hover {
   background: var(--light);
 }
+
 @media (max-width: 450px) {
   .hero {
     height: 430px;
@@ -155,6 +157,7 @@
     padding: 7px 7px;
   }
 }
+
 /*==============================
            ABOUT SECTION
 ================================= */
@@ -187,6 +190,7 @@
   line-height: 1.7;
   margin-bottom: 16px;
 }
+
 .welcome-image img {
   width: 100%;
   border-radius: 16px;
@@ -217,8 +221,7 @@
         MISSION SECTION
 ================================ */
 .mission-section {
-  background: url(/assets/images/bg-img/bg-img-3.webp) center / cover
-    no-repeat;
+  background: url(/assets/images/bg-img/bg-img-3.webp) center / cover no-repeat;
 }
 
 .mission-wrap {
@@ -237,6 +240,7 @@
   font-size: 52px;
   margin: 20px 0;
 }
+
 .mission-left p,
 .mission-item p {
   color: var(--text-muted);
@@ -249,6 +253,7 @@
   flex-direction: column;
   gap: 50px;
 }
+
 .mission-item {
   display: inline-flex;
   flex-direction: row;
@@ -256,6 +261,7 @@
   justify-content: flex-start;
   gap: 20px;
 }
+
 .mission-item h3 {
   font-size: 22px;
 }
@@ -270,6 +276,7 @@
     font-size: 44px;
   }
 }
+
 @media (max-width: 900px) {
   .mission-wrap {
     grid-template-columns: 1fr;
@@ -328,6 +335,7 @@
 .programmes-section {
   background: url(/assets/images/bg-img/bg-img-min.jpg) center / cover no-repeat;
 }
+
 .programme-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -345,6 +353,7 @@
 .programme:hover {
   transform: translateY(-5px);
 }
+
 .programme .icon {
   width: 90px;
   height: auto;
@@ -600,7 +609,7 @@
 .testimonial-carousel {
   background: var(--light);
   padding: 50px 40px;
-  border-radius:30px;
+  border-radius: 30px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
   backdrop-filter: blur(11px);
   -webkit-backdrop-filter: blur(11px);
@@ -725,20 +734,15 @@
   min-height: 420px;
   display: flex;
   align-items: stretch;
-  background-image: linear-gradient(
-      to right,
+  background-image: linear-gradient(to right,
       rgba(230, 230, 228, 0.95) 0%,
       rgba(230, 230, 228, 0.85) 78%,
       rgba(230, 230, 228, 0.4) 88%,
       rgba(230, 230, 228, 0.1) 100%,
-      rgba(230, 230, 228, 0) 100%
-    ),
-<<<<<<< HEAD
-    url("/assets/images/yannis-h-uaPaEM7MiQQ-unsplash.jpg");
-=======
-    url(../../images/yannis-h-uaPaEM7MiQQ-unsplash.jpg);
->>>>>>> 9cadf1492aef6a2d4647123a12b9fb5de5ae8be6
-  background-size: cover;
+      rgba(230, 230, 228, 0) 100%),
+    <<<<<<< HEAD url("/assets/images/yannis-h-uaPaEM7MiQQ-unsplash.jpg");
+  =======url(../../images/yannis-h-uaPaEM7MiQQ-unsplash.jpg);
+  >>>>>>>9cadf1492aef6a2d4647123a12b9fb5de5ae8be6 background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
