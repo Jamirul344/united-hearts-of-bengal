@@ -546,7 +546,7 @@
 ======================================= */
 
 .team-testimonial {
-  background: url(../..assets/images/bg-img/bg-img-min.jpg) center / cover no-repeat;
+  background: url(../../images/bg-img/bg-img-min.jpg) center / cover no-repeat;
   display: grid;
   grid-template-columns: 1.2fr 1fr;
   gap: 60px;
