@@ -161,9 +161,9 @@
 /*==============================
            ABOUT SECTION
 ================================= */
-.welcome {
-  background: url(/assets/images/bg-img/bg-img-2.webp) center / cover no-repeat;
-}
+/* .welcome {
+  background: url(../../images/bg-img/bg-img-2.webp) center / cover no-repeat;
+} */
 
 .welcome-content {
   display: grid;
@@ -220,9 +220,9 @@
 /* =========================
         MISSION SECTION
 ================================ */
-.mission-section {
-  background: url(/assets/images/bg-img/bg-img-3.webp) center / cover no-repeat;
-}
+/* .mission-section {
+  background: url(../../images/bg-img/bg-img-3.webp) center / cover no-repeat;
+} */
 
 .mission-wrap {
   display: grid;
@@ -332,9 +332,9 @@
 /*=============================
          OUR PROGRAM SECTION
 ===============================*/
-.programmes-section {
-  background: url(/assets/images/bg-img/bg-img-min.jpg) center / cover no-repeat;
-}
+/* .programmes-section {
+  background: url(../../images/bg-img/bg-img-min.jpg) center / cover no-repeat;
+} */
 
 .programme-grid {
   display: grid;

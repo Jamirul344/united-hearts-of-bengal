@@ -1,7 +1,7 @@
 /* =============================== PROGRAMME HERO ================= */
-.programme-page {
-  background: url(/assets/images/bg-img/bg-img-min.jpg) center / cover;
-}
+/* .programme-page {
+  background: url(../../images/bg-img/bg-img-min.jpg) center / cover;
+} */
 .programme-hero-inner {
   margin-bottom: 44px;
   text-align: center;
@@ -151,7 +151,7 @@
 
 .get-involved {
   position: relative;
-  background-image: url("/assets/images/programme/larm-rmah-AEaTUnvneik-unsplash.jpg");
+  background-image: url(../../images/programme/larm-rmah-AEaTUnvneik-unsplash.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

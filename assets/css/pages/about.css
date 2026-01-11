@@ -1,9 +1,9 @@
 /* =========================
       OUR STORY SECTION
 ===========================*/
-.story-section {
-  background: url(/assets/images/bg-img/bg-img-2.webp)center / cover no-repeat;
-}
+/* .story-section {
+  background: url(../../images/bg-img/bg-img-2.webp)center / cover no-repeat;
+} */
 
 .story-container {
   text-align: left;
@@ -35,9 +35,9 @@
 /*=============================================
            MISSION AND VISION SECTION
   ===============================================*/
-.mv-section {
-  background:url(/assets/images/bg-img/18141166_SL-060521-43530-14.jpg) center / cover no-repeat;
-}
+/* .mv-section {
+  background:url(../../images/bg-img/18141166_SL-060521-43530-14.jpg) center / cover no-repeat;
+} */
 
 .mv-container {
   max-width: 100%;
