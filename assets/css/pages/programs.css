@@ -1,13 +1,13 @@
-/* =============================== PROGRAMME HERO ================= */
-/* .programme-page {
+/* =============================== programs HERO ================= */
+/* .programs-page {
   background: url(../../images/bg-img/bg-img-min.jpg) center / cover;
 } */
-.programme-hero-inner {
+.programs-hero-inner {
   margin-bottom: 44px;
   text-align: center;
 }
 
-.programme-hero h1 {
+.programs-hero h1 {
   font-size: clamp(30px, 5vw, 52px);
   font-weight: 700;
   line-height: 1.1;
@@ -15,13 +15,13 @@
   color: var(--dark);
 }
 
-.programme-hero p {
+.programs-hero p {
   font-size: clamp(16px, 1.125vw, 18px);
   line-height: 1.6;
   color: var(--text-muted);
 }
 
-.programme-section {
+.programs-section {
   padding: clamp(10px, 6vw, 45px);
   margin-bottom: clamp(20px, 6vw, 65px);
   border-radius: 12px;
@@ -30,27 +30,27 @@
   gap: 50px;
   align-items: center;
 }
-.programme-section {
+.programs-section {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 @media (hover: hover) {
-  .programme-section:hover {
+  .programs-section:hover {
     transform: translateY(-4px);
     box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08);
   }
 }
 
-.programme-section:nth-child(even) {
+.programs-section:nth-child(even) {
   grid-template-columns: 1fr 2fr;
 }
 
-.programme-section:nth-child(even) .programme-image {
+.programs-section:nth-child(even) .programs-image {
   order: -1;
 }
 
-.programme-header h2 {
+.programs-header h2 {
   background: #e0b65f;
   color: var(--dark);
   max-width: 500px;
@@ -60,7 +60,7 @@
   border-radius: 8px;
 }
 
-.programme-intro {
+.programs-intro {
   font-size: 16px;
   margin: 20px 0 30px;
   color: var(--text-muted);
@@ -109,7 +109,7 @@
 .indicators {
   margin-top: 12px;
   padding-left: 18px;
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-muted);
 }
 
@@ -117,22 +117,22 @@
   margin-bottom: 6px;
   list-style: disc;
 }
-.programme-image img {
+.programs-image img {
   max-width: 100%;
   height: auto;
 }
 /* ================= RESPONSIVE ================= */
 @media (max-width: 900px) {
-  .programme-section {
+  .programs-section {
     grid-template-columns: 1fr;
     padding: 10px;
   }
 
-  .programme-section:nth-child(even) {
+  .programs-section:nth-child(even) {
     grid-template-columns: 1fr;
   }
 
-  .programme-section:nth-child(even) .programme-image {
+  .programs-section:nth-child(even) .programs-image {
     order: 0;
   }
 
@@ -140,7 +140,7 @@
     grid-template-columns: 1fr;
   }
 
-  .programme-image img {
+  .programs-image img {
     height: 260px;
   }
 }
@@ -151,7 +151,7 @@
 
 .get-involved {
   position: relative;
-  background-image: url(../../images/programme/larm-rmah-AEaTUnvneik-unsplash.jpg);
+  background-image: url(../../images/programs/larm-rmah-AEaTUnvneik-unsplash.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
