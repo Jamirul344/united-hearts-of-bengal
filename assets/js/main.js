@@ -54,10 +54,3 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
-// COPYRIGHT FOOTER
-window.addEventListener("load", function () {
-    setTimeout(function () {
-        document.getElementById("current-year").textContent =
-            new Date().getFullYear();
-    }, 500);
-});

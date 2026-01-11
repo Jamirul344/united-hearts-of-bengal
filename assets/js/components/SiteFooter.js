@@ -7,6 +7,10 @@ class SiteFooter extends HTMLElement {
             })
             .then(html => {
                 this.innerHTML = html;
+                const yearEl = this.querySelector("#current-year");
+                if (yearEl) {
+                    yearEl.textContent = new Date().getFullYear();
+                }
             })
             .catch(err => console.error(err));
     }
