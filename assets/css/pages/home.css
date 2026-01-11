@@ -159,7 +159,7 @@
            ABOUT SECTION
 ================================= */
 .welcome {
-  background: url(/assets/images/bg-img-2.webp) center / cover no-repeat;
+  background: url(/assets/images/bg-img/bg-img-2.webp) center / cover no-repeat;
 }
 
 .welcome-content {
@@ -217,7 +217,7 @@
         MISSION SECTION
 ================================ */
 .mission-section {
-  background: url(/assets/images/18141166_SL-060521-43530-14.jpg) center / cover
+  background: url(/assets/images/bg-img/bg-img-3.webp) center / cover
     no-repeat;
 }
 
@@ -326,7 +326,7 @@
          OUR PROGRAM SECTION
 ===============================*/
 .programmes-section {
-  background: url(/assets/images/bg-img-min.jpg) center / cover no-repeat;
+  background: url(/assets/images/bg-img/bg-img-min.jpg) center / cover no-repeat;
 }
 .programme-grid {
   display: grid;
@@ -537,7 +537,7 @@
 ======================================= */
 
 .team-testimonial {
-  background: url(/assets/images/bg-img-3.webp) center / cover no-repeat;
+  background: url(/assets/images/bg-img/bg-img-min.jpg) center / cover no-repeat;
   display: grid;
   grid-template-columns: 1.2fr 1fr;
   gap: 60px;

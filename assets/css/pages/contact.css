@@ -3,7 +3,7 @@
             CONTACT CARD
 =================================*/
 .contact-wrapper{
-  background: url(/assets/images/18141166_SL-060521-43530-14.jpg) center / cover no-repeat;
+  background: url(/assets/images/bg-img/18141166_SL-060521-43530-14.jpg) center / cover no-repeat;
 }
 .contact-container {
   display: grid;

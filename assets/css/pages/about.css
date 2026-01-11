@@ -2,7 +2,7 @@
       OUR STORY SECTION
 ===========================*/
 .story-section {
-  background: url(/assets/images/bg-img-2.webp)center / cover no-repeat;
+  background: url(/assets/images/bg-img/bg-img-2.webp)center / cover no-repeat;
 }
 
 .story-container {
@@ -36,7 +36,7 @@
            MISSION AND VISION SECTION
   ===============================================*/
 .mv-section {
-  background:url(/assets/images/18141166_SL-060521-43530-14.jpg) center / cover no-repeat;
+  background:url(/assets/images/bg-img/18141166_SL-060521-43530-14.jpg) center / cover no-repeat;
 }
 
 .mv-container {

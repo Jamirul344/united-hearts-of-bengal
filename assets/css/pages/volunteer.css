@@ -3,6 +3,7 @@
 ============================================*/
 
 .volunteer-section {
+  background: url(/assets/images/bg-img/bg-img-2.webp);
   display: flex;
   justify-content: space-between;
   align-items: center;
