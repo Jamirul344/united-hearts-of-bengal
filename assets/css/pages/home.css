@@ -733,7 +733,7 @@
       rgba(230, 230, 228, 0.1) 100%,
       rgba(230, 230, 228, 0) 100%
     ),
-    url("/assets/images/yannis-h-uaPaEM7MiQQ-unsplash.jpg");
+    url(/assets/images/yannis-h-uaPaEM7MiQQ-unsplash.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
