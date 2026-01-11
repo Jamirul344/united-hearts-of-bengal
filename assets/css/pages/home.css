@@ -740,9 +740,8 @@
       rgba(230, 230, 228, 0.4) 88%,
       rgba(230, 230, 228, 0.1) 100%,
       rgba(230, 230, 228, 0) 100%),
-    <<<<<<< HEAD url("/assets/images/yannis-h-uaPaEM7MiQQ-unsplash.jpg");
-  =======url(../../images/yannis-h-uaPaEM7MiQQ-unsplash.jpg);
-  >>>>>>>9cadf1492aef6a2d4647123a12b9fb5de5ae8be6 background-size: cover;
+  url(../../images/yannis-h-uaPaEM7MiQQ-unsplash.jpg);
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
