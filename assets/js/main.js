@@ -1,23 +1,3 @@
-/*SWITCH TAB BETWEEN MISSION & VISION */
-const tabs = document.querySelectorAll(".switch-tab");
-const contents = document.querySelectorAll(".tab-text");
-
-tabs.forEach((tab) => {
-  tab.addEventListener("click", () => {
-    // Remove active state from all tabs
-    tabs.forEach((t) => t.classList.remove("active"));
-    contents.forEach((c) => c.classList.remove("active"));
-
-    // Activate clicked tab
-    tab.classList.add("active");
-
-    // Show matching content
-    const target = tab.getAttribute("data-tab");
-    document
-      .querySelector(`.tab-text[data-content="${target}"]`)
-      .classList.add("active");
-  });
-});
 
 /*
    FAQ ACCORDION (CONTACT PAGE)
