@@ -116,64 +116,6 @@
   gap: 3rem;
 }
 
-.form-checkbox input[type="checkbox"] {
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-
-  width: 20px;
-  height: 20px;
-  border: 2px solid #6b7280;
-  border-radius: 4px;
-  background-color: #fff;
-  cursor: pointer;
-  position: relative;
-  display: inline-grid;
-  place-content: center;
-}
-
-.form-checkbox input[type="checkbox"]::before {
-  content: "";
-  width: 6px;
-  height: 12px;
-  border: solid #fff;
-  border-width: 0 2px 2px 0;
-  transform: rotate(45deg) scale(0);
-  transition: transform 0.2s ease-in-out;
-}
-
-.form-checkbox input[type="checkbox"]:checked {
-  background-color: #f26430;
-  border-color: #f26430;
-}
-
-.form-checkbox input[type="checkbox"]:checked::before {
-  transform: rotate(45deg) scale(1);
-}
-
-.form-checkbox input[type="checkbox"]:focus-visible {
-  outline: 3px solid rgba(242, 100, 48, 0.5);
-  outline-offset: 3px;
-}
-
-.form-checkbox input[type="checkbox"]:disabled {
-  opacity: 0.6;
-  cursor: not-allowed;
-}
-
-.form-checkbox {
-  display: flex;
-  gap: 0.5rem;
-  font-size: 0.9rem;
-  margin: 1.5rem 0;
-  justify-content: flex-start;
-  flex-direction: row;
-  align-items: center;
-}
-.checkbox-error {
-  display: none;
-  margin-top: 4px;
-}
 
 /*RESPONSIVE FOR TABLET AND MOBILE*/
 

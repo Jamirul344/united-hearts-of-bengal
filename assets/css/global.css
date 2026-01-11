@@ -1,3 +1,29 @@
+:root {
+  --font-heading: "Cormorant Garamond", serif;
+  --font-body: "Sora", sans-serif;
+
+  --bg: #F5F3EF;
+  --accent: #f26430;
+  --secondary: #ffffff;
+
+  --dark: #333;
+  --gray: #e1e6ec;
+  --light: #fff;
+  --text-muted: #6b7280;
+  --radius-md: 12px;
+  --radius-sm: 8px;
+  --shadow-soft: 0 6px 20px rgba(16, 24, 40, 0.08);
+
+  --button-transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  --button-transform: translateY(-3px);
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+
 /*========================================================================================
          ALL SECTION HAVE PADDING, TOP-BOTTOM=40PX AND LEFT-RIGHT=8% IN EVERY PAGES
 ===========================================================================================*/
@@ -17,6 +43,20 @@ section {
   section {
     padding: 15px;
   }
+}
+
+.section-title h2,
+.contact-section h2,
+.map-section h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.section-title p,
+.contact-section p,
+.map-section p {
+  font-size: 18px;
+  color: var(--text-muted);
 }
 
 /*====================================
